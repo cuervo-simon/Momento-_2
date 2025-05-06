@@ -1,0 +1,83 @@
+Grupo 2: Rastreador de Gastos Personales
+
+Integrantes: Cuervo Cano Simon, Cadavid Cardenas Samuel, Sanchez Chaverra Juan Miguel
+
+Descripción: Aplicación de consola para registrar, categorizar y analizar gastos mensuales.
+
+Pasos Detallados
+
+Momento 2:
+
+1. Iniciar proyecto con "Hola Mundo" y configuración básica.
+
+
+
+El primer paso consiste en la creación de un proyecto Java básico. Se inicia el proyecto con la estructura mínima de un programa que imprime en consola el mensaje "Hola Mundo", lo cual sirve como verificación inicial de que el entorno de desarrollo está correctamente configurado. Se verifican también las configuraciones de compilación y ejecución del proyecto.
+
+2. Implementar clases y estructuras de datos (listas/arrays).
+
+
+
+Se crea la clase Gasto, la cual tiene dos atributos principales: monto (de tipo double) y categoria (de tipo String). Además, se implementa el constructor que inicializa estos atributos, así como el método toString para una presentación más legible del objeto Gasto. Se utiliza una lista (ArrayList) para almacenar los objetos Gasto creados, permitiendo que se añadan, visualicen y se calculen los totales de manera sencilla.
+
+3. Funciones para añadir gasto, listar gastos y calcular totales.
+
+
+
+Se implementan tres funciones principales:
+
+Añadir gasto: Permite al usuario ingresar el monto y la categoría del gasto. Estos datos se guardan en un nuevo objeto Gasto que se añade a la lista.
+
+Ver gastos: Muestra todos los gastos registrados hasta el momento, utilizando el método toString para una presentación clara.
+
+Ver total gastado: Suma todos los montos de los gastos registrados y muestra el total.
+
+
+4. Pruebas manuales de entradas válidas e inválidas.
+
+
+
+Se realizaron pruebas en las que se ingresaron distintos montos y categorías para verificar que el programa maneja correctamente las entradas. Se probó con valores válidos (números positivos y cadenas de texto) y con valores inválidos (como números negativos o cadenas vacías), y el programa respondió de forma adecuada.
+
+5. Informe con ejemplos de uso y resultados.
+
+
+
+A continuación, se muestran algunos ejemplos de uso del rastreador de gastos:
+
+Ejemplo 1:
+
+El usuario elige la opción "1. Agregar gasto", ingresa el monto 50 y la categoría Alimentación.
+
+Luego elige "2. Ver gastos", y el sistema muestra:
+
+Monto: $50.0, Categoría: Alimentación
+
+
+Después, elige "3. Ver total gastado" y el sistema muestra:
+
+Total gastado: $50.0
+
+
+
+Ejemplo 2:
+
+El usuario agrega dos gastos: 150 en la categoría Transporte y 100 en Entretenimiento.
+
+Al seleccionar "Ver gastos", el sistema muestra:
+
+Monto: $150.0, Categoría: Transporte
+
+Monto: $100.0, Categoría: Entretenimiento
+
+
+Al elegir "Ver total gastado", el sistema muestra:
+
+Total gastado: $250.0
+
+
+
+
+Este programa es útil para gestionar de forma sencilla los gastos mensuales, permitiendo al usuario visualizar su historial de gastos y calcular el total gastado de manera eficiente.
+
+
